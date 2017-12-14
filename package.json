@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "private": true,
+  "author": "李维宝 <hearly@139.com>",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "./node_modules/.bin/nodemon bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-handlebars": "^3.0.0",
+    "express4-handlebars": "^0.2.0",
+    "jade": "~1.11.0",
+    "moment": "^2.19.3",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.12.5",
+    "serve-favicon": "~2.4.5"
+  }
+}
